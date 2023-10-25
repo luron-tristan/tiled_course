@@ -9,7 +9,7 @@ class Tile(pygame.sprite.Sprite):
 
 pygame.init()
 screen = pygame.display.set_mode((1280, 720))
-tmx_data = load_pygame(".\\data\\tmx\\basic.tmx")
+tmx_data = load_pygame("..\\data\\tmx\\basic.tmx")
 sprite_group = pygame.sprite.Group()
 object_group = pygame.sprite.Group()
 
